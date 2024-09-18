@@ -1,0 +1,49 @@
+@import url(baner.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Century Gothic', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #202935;
+    color: #fff;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.conti{
+    width: 98%;
+    margin: auto;
+}
+
+h1{
+    float: left;
+}
+
+header .conti{
+    display: table;
+}
+
+.section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos{
+    text-align: center;
+}
+
+@media (min-width:1024){
+    .conti{
+     width: 1000px;   
+    }
+}

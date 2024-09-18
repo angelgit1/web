@@ -1,0 +1,89 @@
+.cabezera
+{
+    background-color: #252422;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    display:flow-root;
+}
+
+.navegacion
+{
+    background-color: #2b9348;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.logo
+{
+    width: 70px;
+    height: 50px;
+    display: flex;
+}
+
+.navegacion a
+{
+    text-decoration: none;
+}
+
+.navegacion ul li
+{
+    list-style: none;
+    display:inline-block;
+    margin: 10px;
+    gap: 10px;
+}
+
+.navegacion ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.navegacion ul li a:hover
+{
+    background-color:blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.primera-seccion
+{
+    background-color: rgb(189, 116, 21);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: bisque;
+    padding:0px;
+    margin: 5px;
+    justify-content: center;
+    gap: 10px;
+    
+    position: relative;
+}
+
+.secciones
+{
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linea-separadora
+{
+    border-top: 1px solid black;
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    margin-bottom: 50px;
+}
+
+.pie
+{
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+}

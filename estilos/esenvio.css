@@ -1,0 +1,175 @@
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(154,205,20,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+/*h2{
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 20px;
+}*/
+
+.form-titulo{
+    background: rgb(53, 18, 23);
+    color: rgb(255, 252, 252);
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-bottom: 5px solid rgb(100, 75, 37);
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+/*#boton{
+    background: #31384A
+    color:#fff;
+    padding: 20px;
+}
+
+#boton{
+    cursor: pointer;
+}*/
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.btn-enviar{
+    background: green;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05)
+}
+
+.form-link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+/*-----------------------------------------------------------------*/
+*{
+    box-sizing: border-box;
+}
+
+h3{
+    color: #fff;
+    text-align: center;
+}
+
+.form-register{
+    width: 98%;
+    max-width: 500px;
+    margin: auto;
+    background: rgb(250, 244, 244);
+    border-radius: 7px;
+}
+
+/*.form-titulo{
+    background: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-bottom: 5px solid crimson;
+}*/
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.input{
+    margin-bottom: 30px;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.input-48{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.input-100{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn-enviar{
+    background: rgb(84, 76, 62);
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05)
+}
+
+.form-link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+@media(max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+
+.form > div{
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"]{
+   display:none; 
+}
+    
+
